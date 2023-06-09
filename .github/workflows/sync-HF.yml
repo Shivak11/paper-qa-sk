@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Shivak11:$HF_TOKEN@huggingface.co/spaces/Shivak11/paper-qa-sk main
+        run: git push --force https://Shivak11:$HF_TOKEN@huggingface.co/spaces/Shivak11/paper-qa-sk main
